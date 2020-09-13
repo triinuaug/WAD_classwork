@@ -14,6 +14,186 @@
 
 <body>
 
+	<header>
+
+		<strong>Welcome to your dashboard!</strong>
+
+	</header>
+
+	<section>
+
+		<div>
+
+			<img src="res/images/me.png" alt="My picture">
+
+		</div>
+
+		<div>
+
+			<ul>
+
+				<li>John Doe</li>
+
+				<li>27/06/1993</li>
+
+				<li>Software Engineering</li>
+
+			</ul>
+
+		</div>
+
+		<div>
+
+			<strong>2.65</strong>
+
+		</div>
+
+	</section>
+	
+	<section>
+
+		<h1>Courses</h1>
+
+		<table>
+
+			<thead>
+
+				<tr>
+
+					<th>#</th>
+
+					<th>Course Title</th>
+
+					<th>Semester</th>
+
+					<th>Grade</th>
+
+				</tr>
+
+			</thead>
+
+			<tbody>
+
+				<tr>
+
+					<td>1</td>
+
+					<td><a href="https://courses.cs.ut.ee/2020/ASD/fall" target="_blank">Agile software development</a></td>
+
+					<td>Semester 1 fall</td>
+
+					<td>82</td>
+
+				</tr>
+
+				<tr>
+
+					<td>2</td>
+
+					<td><a href="https://courses.cs.ut.ee/2020/sm/fall" target="_blank">System modelling</a></td>
+
+					<td>Semester 1 spring</td>
+
+					<td>85</td>
+
+				</tr>
+
+				<tr>
+
+					<td>3</td>
+
+					<td><a href="https://courses.cs.ut.ee/2020/OOP/springObject-oriented programming" target="_blank"> Object-oriented Programming</a></td>
+
+					<td>Semester 2 spring</td>
+
+					<td>99</td>
+
+				</tr>
+
+				<tr>
+
+					<td>4</td>
+
+					<td>Estonian language Level A2</td>
+
+					<td>Semester 2 fall</td>
+
+					<td>65</td>
+
+				</tr>
+
+			</tbody>
+			
+			<tfoot>
+			
+				<tr>
+				
+					<td></td>
+				
+					<td colspan="3">
+					
+						<button>Add new course</button>
+						
+					</td>
+				
+				</tr>
+					
+					<form>
+					
+						<td></td>
+					
+						<td><input type="text" name="title" placeholder="Enter the course title"></td>
+						
+						<td><select name="semester">
+						
+							<option disabled selected>Select the semester</option>
+						
+							<option value="Semester 1 fall">Semester 1 fall</option>
+							
+							<option value="Semester 1 spring">Semester 1 spring</option>
+							
+							<option value="Semester 2 fall">Semester 2 fall</option>
+							
+							<option value="Semester 2 spring">Semester 2 spring</option>
+						
+						</select></td>
+						
+						<td><input type="number" name="grade" min="0" max="100" placeholder="Grade"></td>
+						
+						<td><input type="submit" value="Add"></td>
+					
+					</form>
+					
+				<tr>
+				
+				</tr>
+			
+			</tfoot>
+
+		</table>
+
+	</section>
+
+	<footer>
+
+		<ul>
+
+			<li>
+
+				<a href="https://ois2.ut.ee/" target="_blank">OIS</a>
+
+			</li>
+
+			<li>
+
+				<a href="https://courses.cs.ut.ee/" target="_blank">Courses</a>
+
+			</li>
+
+		</ul>
+
+	</footer>
+	
 </body>
 
 </html>
